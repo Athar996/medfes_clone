@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Medfes</title>
+</head>
+
+<body>
+    <div class="fullbody">
+        <!-- <img id="bgimg"src="background.jpg" alt="hospital_category_picture"> -->
+        <div class="leftpart">
+            <div class="logo">
+                <img id="logoid" src="logo.png" alt="" />
+            </div>
+            <div class="imgdiv">
+                <img id="medicalpic" src="medicalassurance.png" alt="" />
+            </div>
+        </div>
+
+        <div class="rightpart">
+            <div class="ri8content">
+                <h1 id="welocmemedfes">Welcome to Medfes</h1>
+                <h1 id="signinheading">Sign in</h1>
+                <div class="signin">
+                    <input type="text" class="signininputs" placeholder="Enter Username" name="username"
+                        id="username" />
+                    <input type="password" class="signininputs" placeholder="Enter password" name="password"
+                        id="password" />
+                    <i class="bi bi-eye-slash" id="password" onclick="myFunction()">
+                        show password</i>
+                    <div class="hints">
+                        <div class="checkbox">
+                            <input type="checkbox" class="signininput" id="checkbox" name="rememberme"
+                                id="rememberme" />
+                            Remember Me?
+                        </div>
+                        <div class="forgot">
+                            <input type="button" class="signininput" id="forgot" value="Forgot username?" />
+                        </div>
+                    </div>
+                    <input type="button" class="signininputs" id="login" value="LOGIN" />
+                    <p>OR</p>
+                    <input type="button" class="signininputs" id="register" value="Register" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
